@@ -12,7 +12,7 @@ const Compare = () => {
     const inputBValue = e.target.inputB.value;
 
     if (inputAValue === "" && inputBValue === "") {
-      return toast.warning("Both Input is Empty, Please Provide a Input Value");
+      return toast.info("Both Input is Empty, Please Provide a Input Value");
     }
 
     if (inputAValue === "") {
