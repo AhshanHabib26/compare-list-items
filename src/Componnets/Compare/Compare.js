@@ -32,6 +32,8 @@ const Compare = () => {
       );
       e.target.inputA.value = "";
       e.target.inputB.value = "";
+      setInputA('')
+      setInputB('')
     }
   };
 
